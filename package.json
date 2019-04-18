@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fix-styles": "prettier-stylelint --write './src/**/*.{css,scss}'",
+    "watch": "gulp"
+  },
+  "author": "Jason Walker <jason@two24studios.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^8.0.0",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recess-order": "^2.0.1",
+    "stylelint-scss": "^3.5.4"
+  }
+}
